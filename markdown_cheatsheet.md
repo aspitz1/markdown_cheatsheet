@@ -102,7 +102,7 @@ If you'd like to include a image you can. It would look like this
 <br>
 *Jeremy Bezanger* Made This
 <br>
-You can drag and drop a image into the comment section of something on GitHub to make a link to the image
+Drag and drop an image into the comment section of a gist on GitHub to make a link to the image. The image used here is being linked with a directory path because the source is inside this directory.
 
 ## Block Quotes
 For a block quote
