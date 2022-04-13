@@ -2,46 +2,46 @@
 ___
 This cheatsheet is meant to be a quick reference to everyday Markdown. For a more detailed list I like [markdown-it demo](https://markdown-it.github.io/).
 ## Headings
-\# Heading 1
+`#` Heading 1
 <br>
-\## Heading 2
+`##` Heading 2
 <br>
-\### Heading 3
+`###` Heading 3
 <br>
-\#### Heading 4
+`####` Heading 4
 <br>
-\##### Heading 5
+`#####` Heading 5
 <br>
-\###### Heading 6
+`######` Heading 6
 <br><br>
 Remember headings have semantic meaning. If you just are looking for **BOLD** text, use styling instead.
 ## Text Styles
 **BOLD TEXT**
 <br>
-\*\*This is BOLD Text\*\*
+`**`This is BOLD Text`**`
 <br>
-\-\-This is BOLD Text\-\-
+`--`This is BOLD Text`--`
 <br>
-\_\_This is BOLD Text\_\_
+`__`This is BOLD Text`__`
 <br><br>
 *Italic Text*
 <br>
-\*This is Italic Text\*
+`*`This is Italic Text`*`
 <br>
-\_This is Italic Text\_
+`_`This is Italic Text`_`
 <br><br>
 How to Make a ~STRIKETHROUGH~
 <br>
-\~This Is a Strikethrough\~
+`~`This Is a Strikethrough`~`
 <br>
 ## Ordered and Unordered Lists
 &ensp;
-\* Use an asterisk to make an start an unordered list
+`*` Use an asterisk to make an start an unordered list
 <br>
 &ensp;
-\* Then another one for another another bullet point
+`*` Then another one for another another bullet point
 <br>
-&emsp;&emsp;\* Use **Two** spaces before your asterisk to create a sublist
+&emsp;&emsp;`*` Use **Two** spaces before your asterisk to create a sublist
 <br>
 ```md
 1. To make a ordered list use numbers like this
@@ -59,15 +59,15 @@ Let's see an example of a list in Markdown!
 
 
 ## Inline and Code Block
-For inline code wrap the code in  \`backticks\`
+For inline code wrap the code in \`back-ticks\`
 <br><br>
 \```
 <br>
-Wrap your code like this for code block
+Wrap your code in three back-ticks before and after for code block
 <br>
 \```
 <br>
-If you'd like to use syntax highlighting specify the language specify the language after the first three backticks. Like this \```js or \```css
+If you'd like to use syntax highlighting specify the language after the first three back-ticks. Like this \```js or \```css
 ```js
 var itWillLook = "Like this";
 var dog = "cute";
@@ -88,18 +88,23 @@ If you'd like to include a image you can. It would look like this
 ```
 ![Strawberries](/jeremy-bezanger-unsplash.jpg)
 ```
-![Strawberries](/jeremy-bezanger-unsplash.jpg)Jeremy Bezanger Made This
+![Strawberries](/jeremy-bezanger-unsplash.jpg)
+<br>
+*Jeremy Bezanger* Made This
+<br>
+You can drag and drop a image into the comment section of something on GitHub to make a link to the image
+
 ## Block Quotes
 For a block quote
 <br>
 &emsp;
-\> Use a greater-then sign
+`>` Use a greater-then sign
 <br>
 Your block quote will look like This
 > Here is some stuff that someone said
 >> And some more stuff using `>>`
 
 ### Other Stuff
-* You can escape a character with a `\` for example `\*`
+* You can escape a character with a `\` for example `\*` looks like \*
 * Need a line break? Use `<br>`
 * Some HTML may be supported
