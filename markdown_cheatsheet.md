@@ -15,6 +15,12 @@ This cheatsheet is meant to be a quick reference to everyday Markdown. For a mor
 `######` Heading 6
 <br><br>
 Remember headings have semantic meaning. If you just are looking for **BOLD** text, use styling instead.
+
+## Horizontal Rules
+`---` or `___` or `***`
+<br>
+Those options will all look the same, like the one at the top of this sheet.
+
 ## Text Styles
 **BOLD TEXT**
 <br>
@@ -30,7 +36,7 @@ Remember headings have semantic meaning. If you just are looking for **BOLD** te
 <br>
 `_`This is Italic Text`_`
 <br><br>
-How to Make a ~STRIKETHROUGH~
+~STRIKETHROUGH~
 <br>
 `~`This Is a Strikethrough`~`
 <br>
@@ -43,19 +49,23 @@ How to Make a ~STRIKETHROUGH~
 <br>
 &emsp;&emsp;`*` Use **Two** spaces before your asterisk to create a sublist
 <br>
+&emsp;&emsp;`*`It would look the same with `*`, or `-`
+<br>
+&emsp;&emsp;&emsp;`*`Use **three** spaces to go one sublist deeper
+<br>
 ```md
 1. To make a ordered list use numbers like this
 2. Use as many as you need
 3. Just one more
 ```
-Let's see an example of a list in Markdown!
+**Let's see an example of a list in Markdown!**
 - Here is what a Markdown list looks like
   - This is a sublist item
-    - Another sublist
+   - Another sublist
 - This list was made with a `-`
 1. Now an ordered Lists
-2. You can use sequential numbers
-3. Use sequential numbers
+2. You should use sequential numbers
+3. It doesn't need to start at `1.`
 
 
 ## Inline and Code Block
