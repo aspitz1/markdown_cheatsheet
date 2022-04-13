@@ -1,6 +1,23 @@
 # Markdown Cheatsheet
+
+[Headings](#headings)
+<br>
+[Horizontal Rules](#horizontal-rules)
+<br>
+[Ordered and Unordered Lists](#ordered-and-unordered-lists)
+<br>
+[Inline Code and Code Block](#inline-code-and-code-block)
+<br>
+[links](#links)
+<br>
+[Images](#images)
+<br>
+[Block Quotes](#block-quotes)
+<br>
+[Other Stuff](#other-stuff)
 ___
-This cheatsheet is meant to be a quick reference to everyday Markdown. For a more detailed list I like [markdown-it demo](https://markdown-it.github.io/).
+This cheatsheet is meant to be a quick reference to everyday Markdown. For a more detailed list I like [markdown-it demo](https://markdown-it.github.io)
+<br><br>
 ## Headings
 `#` Heading 1
 <br>
@@ -68,7 +85,7 @@ Those options will all look the same, like the one at the top of this sheet.
 3. It doesn't need to start at `1.`
 
 
-## Inline and Code Block
+## Inline Code and Code Block
 For inline code wrap the code in \`back-ticks\`
 <br><br>
 \```
