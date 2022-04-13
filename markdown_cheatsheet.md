@@ -51,7 +51,7 @@ Those options will all look the same, like the one at the top of this sheet.
 <br>
 &emsp;&emsp;`*`It would look the same with `*`, or `-`
 <br>
-&emsp;&emsp;&emsp;`*`Use **three** spaces to go one sublist deeper
+&emsp;&emsp;&emsp;`*`Use **four** spaces to go one sublist deeper
 <br>
 ```md
 1. To make a ordered list use numbers like this
@@ -61,7 +61,7 @@ Those options will all look the same, like the one at the top of this sheet.
 **Let's see an example of a list in Markdown!**
 - Here is what a Markdown list looks like
   - This is a sublist item
-   - Another sublist
+    - Another sublist
 - This list was made with a `-`
 1. Now an ordered Lists
 2. You should use sequential numbers
