@@ -49,7 +49,7 @@ Those options will all look the same, like the one at the top of this sheet.
 <br>
 &emsp;&emsp;`*` Use **Two** spaces before your asterisk to create a sublist
 <br>
-&emsp;&emsp;`*`It would look the same with `*`, or `-`
+&emsp;&emsp;`*`It would look the same with `*`, `-`, or `+`
 <br>
 &emsp;&emsp;&emsp;`*`Use **four** spaces to go one sublist deeper
 <br>
